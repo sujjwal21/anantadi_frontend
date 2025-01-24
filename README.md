@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Video Cropping Tool UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a user-friendly interface for a video cropping tool built using React and Material UI. The tool allows users to play a video, select a specific segment to crop, and view details of the cropped section. It also supports dark mode for better accessibility and user experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Video Player**: A fully functional video player to play and preview videos.
+- **Interactive Timeline**:
+  - Users can adjust sliders to set start and end points for cropping.
+  - Displays the duration of the cropped section.
+- **Dark Mode Support**: Toggle between light and dark themes.
+- **Material UI Components**: Provides a modern and responsive design.
+- **Video Details**:
+  - Start time of the cropped clip.
+  - End time of the cropped clip.
+  - Total duration of the cropped section.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### `npm test`
+3. Install Material UI and related libraries:
+   ```bash
+   npm install @mui/material @emotion/react @emotion/styled
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. If needed, install Material UI icons:
+   ```bash
+   npm install @mui/icons-material
+   ```
 
-### `npm run build`
+5. Start the development server:
+   ```bash
+   npm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Open the application in your browser (`http://localhost:3000` by default).
+2. Upload or use the default video source.
+3. Adjust the cropping range using the sliders below the video player.
+4. View the cropped clip's details in the right panel.
+5. Toggle dark mode using the "Dark Mode" button.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Example Video URLs
 
-### `npm run eject`
+Here are some sample video URLs you can use to test the tool:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Big Buck Bunny](https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4)
+- [Elephants Dream](https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4)
+- [Sintel Trailer](https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **React**: For building the user interface.
+- **Material UI**: For styling and responsive design.
+- **JavaScript**: Application logic.
+- **CSS**: Custom styles.
 
-## Learn More
+## Contributions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! Please fork the repository, make changes, and create a pull request.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+Happy coding! 🚀
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
